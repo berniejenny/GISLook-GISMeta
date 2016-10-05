@@ -1,0 +1,28 @@
+E00Compr library - Revision History
+===================================
+  
+ 
+Current Version:
+----------------
+
+
+Version 1.0.0 (2005-09-17):
+---------------------------
+ 
+- Switch to MIT license (previous license didn't allow modifications to
+  the code)
+
+- Update refs to website and email address in docs.
+
+
+Version 0.5 (1999-02-25):
+-------------------------
+ 
+Version 0.5 was the first complete and stable release. It should 
+really have been called 1.0. 
+
+No history information before this version.
+
+
+---------
+$Id: HISTORY.TXT,v 1.2 2005/09/17 14:22:05 daniel Exp $

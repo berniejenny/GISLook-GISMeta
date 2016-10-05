@@ -1,0 +1,6 @@
+Modification by Bernhard Jenny, June 2008:
+
+Don't require the info directory to be present.
+
+File: avc_e00read.c
+Search for BERNHARD JENNY

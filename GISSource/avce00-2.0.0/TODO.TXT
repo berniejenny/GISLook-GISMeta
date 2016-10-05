@@ -1,0 +1,37 @@
+ToDo list for the AVC Library:
+-----------------------------
+
+- Docs: new member in squeleton struct... update example in docs.
+
+==== Known issues ====
+
+(For the list of currently open bugs, see:
+ http://bugzilla.maptools.org/buglist.cgi?product=AVCE00&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED)
+
+- Windows-specific: 0 bytes allocation fails with arc with 0 vertices.
+
+- There are still a couple of values inside arc.dir for which I don't know
+  the meaning.  Setting them to zero seems to work... but these could be 
+  investigated a little more to try to find their meaning.
+
+- Potential collision problem if 2 processes try to add an info table to
+  the ARC.DIR at the same time.  Does Arc/Info have any way to lock the
+  ARC.DIR???
+
+- ??? Add support to explicitly specify the precision when creating a new 
+  coverage.  For now AVCE00WriteOpen() only supports AVC_DEFAULT_PREC, but
+  if we added some code to convert the INFO TABLE fields precision from
+  single to double precision and vice-versa then we should be able to
+  create a coverage using a precision different from the one in the source
+  E00.
+
+- Interesting problem: sometimes tol.adf have missing tolerance index 
+  (ex: 2 and 3), and they appear to be replaced by index 11 and 12 at the 
+  end of the file.  However, Arc/Info still exports a normal TOL section,
+   with 10 values with indexes going from 1 to 10... 
+  (see single precision annotation.e00 coverage)
+
+
+----------
+$Id: TODO.TXT,v 1.2 2006/08/17 20:09:45 dmorissette Exp $
+----------

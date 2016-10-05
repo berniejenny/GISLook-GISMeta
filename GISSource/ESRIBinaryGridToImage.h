@@ -1,0 +1,24 @@
+/*
+ *  ESRIBinaryGridToImage.h
+ *  GISLook
+ *
+ *  Created by Bernhard Jenny on 19.05.08.
+ *  Copyright 2008. All rights reserved.
+ *
+ */
+
+#include <CoreFoundation/CoreFoundation.h>
+#include <CoreFoundation/CFPlugInCOM.h>
+#include <CoreServices/CoreServices.h>
+#include <QuickLook/QuickLook.h>
+
+#ifndef __ESRIBINARYGRID2IMAGE__
+#define __ESRIBINARYGRID2IMAGE__
+
+bool readESRIBinaryGridSize(char *path, long *width, long *height);
+CGImageRef readESRIBinaryGridImage(FILE * fp,
+								   char *path,
+								   QLPreviewRequestRef preview,
+								   QLThumbnailRequestRef thumbnail);
+
+#endif

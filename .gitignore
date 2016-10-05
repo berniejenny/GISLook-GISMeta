@@ -1,0 +1,13 @@
+GISLook & GISMeta 1.0.zip
+
+GISLook/build/
+GISLook/qlmanage.txt
+
+GISMeta/build/
+GISMeta/install.txt
+GISMeta/mdimport/
+GISMeta/Spotlight samples/
+
+GISSource/ai grid/
+
+.DS_Store

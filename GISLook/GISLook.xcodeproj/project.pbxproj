@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D576314048677EA00EA77CD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */; };
+		8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B49A704867FD3000E48DA /* InfoPlist.strings */; };
+		BA1986710DED8C7600B1D5A4 /* dbfopen.c in Sources */ = {isa = PBXBuildFile; fileRef = BA19866D0DED8C7600B1D5A4 /* dbfopen.c */; };
+		BA1986720DED8C7600B1D5A4 /* shapefil.h in Headers */ = {isa = PBXBuildFile; fileRef = BA19866E0DED8C7600B1D5A4 /* shapefil.h */; };
+		BA1986730DED8C7600B1D5A4 /* shpopen.c in Sources */ = {isa = PBXBuildFile; fileRef = BA19866F0DED8C7600B1D5A4 /* shpopen.c */; };
+		BA1986740DED8C7600B1D5A4 /* shptree.c in Sources */ = {isa = PBXBuildFile; fileRef = BA1986700DED8C7600B1D5A4 /* shptree.c */; };
+		BA2A52F70DF577B800818ACC /* avc.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2A52D30DF577B800818ACC /* avc.h */; };
+		BA2A52F80DF577B800818ACC /* avc_bin.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A52D40DF577B800818ACC /* avc_bin.c */; };
+		BA2A52F90DF577B800818ACC /* avc_binwr.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A52D50DF577B800818ACC /* avc_binwr.c */; };
+		BA2A52FA0DF577B800818ACC /* avc_e00gen.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A52D60DF577B800818ACC /* avc_e00gen.c */; };
+		BA2A52FB0DF577B800818ACC /* avc_e00parse.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A52D70DF577B800818ACC /* avc_e00parse.c */; };
+		BA2A52FC0DF577B800818ACC /* avc_e00read.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A52D80DF577B800818ACC /* avc_e00read.c */; };
+		BA2A52FD0DF577B800818ACC /* avc_e00write.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A52D90DF577B800818ACC /* avc_e00write.c */; };
+		BA2A52FE0DF577B800818ACC /* avc_mbyte.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A52DA0DF577B800818ACC /* avc_mbyte.c */; };
+		BA2A52FF0DF577B800818ACC /* avc_mbyte.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2A52DB0DF577B800818ACC /* avc_mbyte.h */; };
+		BA2A53000DF577B800818ACC /* avc_misc.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A52DC0DF577B800818ACC /* avc_misc.c */; };
+		BA2A53010DF577B800818ACC /* avc_rawbin.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A52DD0DF577B800818ACC /* avc_rawbin.c */; };
+		BA2A53080DF577B800818ACC /* cpl_conv.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A52E40DF577B800818ACC /* cpl_conv.c */; };
+		BA2A53090DF577B800818ACC /* cpl_conv.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2A52E50DF577B800818ACC /* cpl_conv.h */; };
+		BA2A530A0DF577B800818ACC /* cpl_dir.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A52E60DF577B800818ACC /* cpl_dir.c */; };
+		BA2A530B0DF577B800818ACC /* cpl_error.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A52E70DF577B800818ACC /* cpl_error.c */; };
+		BA2A530C0DF577B800818ACC /* cpl_error.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2A52E80DF577B800818ACC /* cpl_error.h */; };
+		BA2A530D0DF577B800818ACC /* cpl_port.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2A52E90DF577B800818ACC /* cpl_port.h */; };
+		BA2A530E0DF577B800818ACC /* cpl_string.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A52EA0DF577B800818ACC /* cpl_string.c */; };
+		BA2A530F0DF577B800818ACC /* cpl_string.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2A52EB0DF577B800818ACC /* cpl_string.h */; };
+		BA2A53100DF577B800818ACC /* cpl_vsi.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2A52EC0DF577B800818ACC /* cpl_vsi.h */; };
+		BA2A53110DF577B800818ACC /* cpl_vsisimple.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A52ED0DF577B800818ACC /* cpl_vsisimple.c */; };
+		BA2A533C0DF5788600818ACC /* e00compr.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2A53260DF5788600818ACC /* e00compr.h */; };
+		BA2A53400DF5788600818ACC /* e00conv.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A532A0DF5788600818ACC /* e00conv.c */; };
+		BA2A53410DF5788600818ACC /* e00error.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A532B0DF5788600818ACC /* e00error.c */; };
+		BA2A53420DF5788600818ACC /* e00read.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A532C0DF5788600818ACC /* e00read.c */; };
+		BA2A53430DF5788600818ACC /* e00write.c in Sources */ = {isa = PBXBuildFile; fileRef = BA2A532D0DF5788600818ACC /* e00write.c */; };
+		BA6BC7BD0DF87626009993A5 /* E00.c in Sources */ = {isa = PBXBuildFile; fileRef = BA6BC7BB0DF87626009993A5 /* E00.c */; };
+		BA6BC7BE0DF87626009993A5 /* E00.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6BC7BC0DF87626009993A5 /* E00.h */; };
+		BA8A161E0DEBE7F9006FD11E /* HdrFile.c in Sources */ = {isa = PBXBuildFile; fileRef = BA8A161C0DEBE7F9006FD11E /* HdrFile.c */; };
+		BA8A161F0DEBE7F9006FD11E /* HdrFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8A161D0DEBE7F9006FD11E /* HdrFile.h */; };
+		BA8A16720DEBEE17006FD11E /* BILToImage.c in Sources */ = {isa = PBXBuildFile; fileRef = BA8A16700DEBEE17006FD11E /* BILToImage.c */; };
+		BA8A16730DEBEE17006FD11E /* BILToImage.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8A16710DEBEE17006FD11E /* BILToImage.h */; };
+		BAE0E7610DE761D000000A97 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = BAE0E75E0DE761D000000A97 /* GeneratePreviewForURL.c */; };
+		BAE0E7620DE761D000000A97 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = BAE0E75F0DE761D000000A97 /* GenerateThumbnailForURL.c */; };
+		BAE0E7630DE761D000000A97 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BAE0E7600DE761D000000A97 /* main.c */; };
+		BAE0E7760DE761DC00000A97 /* Color.c in Sources */ = {isa = PBXBuildFile; fileRef = BAE0E7640DE761DC00000A97 /* Color.c */; };
+		BAE0E7770DE761DC00000A97 /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE0E7650DE761DC00000A97 /* Color.h */; };
+		BAE0E7780DE761DC00000A97 /* ESRIASCIIGridToImage.c in Sources */ = {isa = PBXBuildFile; fileRef = BAE0E7660DE761DC00000A97 /* ESRIASCIIGridToImage.c */; };
+		BAE0E7790DE761DC00000A97 /* ESRIASCIIGridToImage.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE0E7670DE761DC00000A97 /* ESRIASCIIGridToImage.h */; };
+		BAE0E77A0DE761DC00000A97 /* ESRIBinaryGridToImage.c in Sources */ = {isa = PBXBuildFile; fileRef = BAE0E7680DE761DC00000A97 /* ESRIBinaryGridToImage.c */; };
+		BAE0E77B0DE761DC00000A97 /* ESRIBinaryGridToImage.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE0E7690DE761DC00000A97 /* ESRIBinaryGridToImage.h */; };
+		BAE0E77C0DE761DC00000A97 /* File.c in Sources */ = {isa = PBXBuildFile; fileRef = BAE0E76A0DE761DC00000A97 /* File.c */; };
+		BAE0E77D0DE761DC00000A97 /* File.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE0E76B0DE761DC00000A97 /* File.h */; };
+		BAE0E77E0DE761DC00000A97 /* PGMToImage.c in Sources */ = {isa = PBXBuildFile; fileRef = BAE0E76C0DE761DC00000A97 /* PGMToImage.c */; };
+		BAE0E77F0DE761DC00000A97 /* PGMToImage.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE0E76D0DE761DC00000A97 /* PGMToImage.h */; };
+		BAE0E7800DE761DC00000A97 /* ReadRaster.c in Sources */ = {isa = PBXBuildFile; fileRef = BAE0E76E0DE761DC00000A97 /* ReadRaster.c */; };
+		BAE0E7810DE761DC00000A97 /* ReadRaster.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE0E76F0DE761DC00000A97 /* ReadRaster.h */; };
+		BAE0E7820DE761DC00000A97 /* SRTMToImage.c in Sources */ = {isa = PBXBuildFile; fileRef = BAE0E7700DE761DC00000A97 /* SRTMToImage.c */; };
+		BAE0E7830DE761DC00000A97 /* SRTMToImage.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE0E7710DE761DC00000A97 /* SRTMToImage.h */; };
+		BAE0E7840DE761DC00000A97 /* SurferGridToImage.c in Sources */ = {isa = PBXBuildFile; fileRef = BAE0E7720DE761DC00000A97 /* SurferGridToImage.c */; };
+		BAE0E7850DE761DC00000A97 /* SurferGridToImage.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE0E7730DE761DC00000A97 /* SurferGridToImage.h */; };
+		BAE0E7860DE761DC00000A97 /* USGSDEMToImage.c in Sources */ = {isa = PBXBuildFile; fileRef = BAE0E7740DE761DC00000A97 /* USGSDEMToImage.c */; };
+		BAE0E7870DE761DC00000A97 /* USGSDEMToImage.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE0E7750DE761DC00000A97 /* USGSDEMToImage.h */; };
+		BAE207630DF9251F00EF18BA /* strlwr.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE207620DF9251F00EF18BA /* strlwr.h */; };
+		BAE207960DF92F0000EF18BA /* strlwr.c in Sources */ = {isa = PBXBuildFile; fileRef = BAE207950DF92F0000EF18BA /* strlwr.c */; };
+		BAE209930DF964FD00EF18BA /* E00GridToImage.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE209910DF964FD00EF18BA /* E00GridToImage.h */; };
+		BAE209940DF964FD00EF18BA /* E00GridToImage.c in Sources */ = {isa = PBXBuildFile; fileRef = BAE209920DF964FD00EF18BA /* E00GridToImage.c */; };
+		BAF0B8BE0E0524AF00F12599 /* ESRIShape.c in Sources */ = {isa = PBXBuildFile; fileRef = BAF0B8BC0E0524AF00F12599 /* ESRIShape.c */; };
+		BAF0B8BF0E0524AF00F12599 /* ESRIShape.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF0B8BD0E0524AF00F12599 /* ESRIShape.h */; };
+		BAF0B8C20E0524BC00F12599 /* ReadVector.c in Sources */ = {isa = PBXBuildFile; fileRef = BAF0B8C00E0524BC00F12599 /* ReadVector.c */; };
+		BAF0B8C30E0524BC00F12599 /* ReadVector.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF0B8C10E0524BC00F12599 /* ReadVector.h */; };
+		C86B05270671AA6E00DD9006 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86B05260671AA6E00DD9006 /* CoreServices.framework */; };
+		F28CFBFD0A3EC0AF000ABFF5 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28CFBFC0A3EC0AF000ABFF5 /* ApplicationServices.framework */; };
+		F28CFC030A3EC0C6000ABFF5 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28CFC020A3EC0C6000ABFF5 /* QuickLook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		8D576316048677EA00EA77CD /* GISLook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GISLook.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BA19866D0DED8C7600B1D5A4 /* dbfopen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dbfopen.c; sourceTree = "<group>"; };
+		BA19866E0DED8C7600B1D5A4 /* shapefil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shapefil.h; sourceTree = "<group>"; };
+		BA19866F0DED8C7600B1D5A4 /* shpopen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shpopen.c; sourceTree = "<group>"; };
+		BA1986700DED8C7600B1D5A4 /* shptree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shptree.c; sourceTree = "<group>"; };
+		BA2A52D30DF577B800818ACC /* avc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avc.h; sourceTree = "<group>"; };
+		BA2A52D40DF577B800818ACC /* avc_bin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = avc_bin.c; sourceTree = "<group>"; };
+		BA2A52D50DF577B800818ACC /* avc_binwr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = avc_binwr.c; sourceTree = "<group>"; };
+		BA2A52D60DF577B800818ACC /* avc_e00gen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = avc_e00gen.c; sourceTree = "<group>"; };
+		BA2A52D70DF577B800818ACC /* avc_e00parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = avc_e00parse.c; sourceTree = "<group>"; };
+		BA2A52D80DF577B800818ACC /* avc_e00read.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = avc_e00read.c; sourceTree = "<group>"; };
+		BA2A52D90DF577B800818ACC /* avc_e00write.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = avc_e00write.c; sourceTree = "<group>"; };
+		BA2A52DA0DF577B800818ACC /* avc_mbyte.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = avc_mbyte.c; sourceTree = "<group>"; };
+		BA2A52DB0DF577B800818ACC /* avc_mbyte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avc_mbyte.h; sourceTree = "<group>"; };
+		BA2A52DC0DF577B800818ACC /* avc_misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = avc_misc.c; sourceTree = "<group>"; };
+		BA2A52DD0DF577B800818ACC /* avc_rawbin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = avc_rawbin.c; sourceTree = "<group>"; };
+		BA2A52E40DF577B800818ACC /* cpl_conv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpl_conv.c; sourceTree = "<group>"; };
+		BA2A52E50DF577B800818ACC /* cpl_conv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpl_conv.h; sourceTree = "<group>"; };
+		BA2A52E60DF577B800818ACC /* cpl_dir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpl_dir.c; sourceTree = "<group>"; };
+		BA2A52E70DF577B800818ACC /* cpl_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpl_error.c; sourceTree = "<group>"; };
+		BA2A52E80DF577B800818ACC /* cpl_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpl_error.h; sourceTree = "<group>"; };
+		BA2A52E90DF577B800818ACC /* cpl_port.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpl_port.h; sourceTree = "<group>"; };
+		BA2A52EA0DF577B800818ACC /* cpl_string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpl_string.c; sourceTree = "<group>"; };
+		BA2A52EB0DF577B800818ACC /* cpl_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpl_string.h; sourceTree = "<group>"; };
+		BA2A52EC0DF577B800818ACC /* cpl_vsi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpl_vsi.h; sourceTree = "<group>"; };
+		BA2A52ED0DF577B800818ACC /* cpl_vsisimple.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpl_vsisimple.c; sourceTree = "<group>"; };
+		BA2A53260DF5788600818ACC /* e00compr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e00compr.h; sourceTree = "<group>"; };
+		BA2A532A0DF5788600818ACC /* e00conv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = e00conv.c; sourceTree = "<group>"; };
+		BA2A532B0DF5788600818ACC /* e00error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = e00error.c; sourceTree = "<group>"; };
+		BA2A532C0DF5788600818ACC /* e00read.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = e00read.c; sourceTree = "<group>"; };
+		BA2A532D0DF5788600818ACC /* e00write.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = e00write.c; sourceTree = "<group>"; };
+		BA6BC7BB0DF87626009993A5 /* E00.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = E00.c; path = ../GISSource/E00.c; sourceTree = SOURCE_ROOT; };
+		BA6BC7BC0DF87626009993A5 /* E00.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = E00.h; path = ../GISSource/E00.h; sourceTree = SOURCE_ROOT; };
+		BA8A161C0DEBE7F9006FD11E /* HdrFile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = HdrFile.c; path = ../GISSource/HdrFile.c; sourceTree = SOURCE_ROOT; };
+		BA8A161D0DEBE7F9006FD11E /* HdrFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HdrFile.h; path = ../GISSource/HdrFile.h; sourceTree = SOURCE_ROOT; };
+		BA8A16700DEBEE17006FD11E /* BILToImage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BILToImage.c; path = ../GISSource/BILToImage.c; sourceTree = SOURCE_ROOT; };
+		BA8A16710DEBEE17006FD11E /* BILToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BILToImage.h; path = ../GISSource/BILToImage.h; sourceTree = SOURCE_ROOT; };
+		BAE0E75E0DE761D000000A97 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		BAE0E75F0DE761D000000A97 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
+		BAE0E7600DE761D000000A97 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BAE0E7640DE761DC00000A97 /* Color.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Color.c; path = ../GISSource/Color.c; sourceTree = SOURCE_ROOT; };
+		BAE0E7650DE761DC00000A97 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Color.h; path = ../GISSource/Color.h; sourceTree = SOURCE_ROOT; };
+		BAE0E7660DE761DC00000A97 /* ESRIASCIIGridToImage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ESRIASCIIGridToImage.c; path = ../GISSource/ESRIASCIIGridToImage.c; sourceTree = SOURCE_ROOT; };
+		BAE0E7670DE761DC00000A97 /* ESRIASCIIGridToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESRIASCIIGridToImage.h; path = ../GISSource/ESRIASCIIGridToImage.h; sourceTree = SOURCE_ROOT; };
+		BAE0E7680DE761DC00000A97 /* ESRIBinaryGridToImage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ESRIBinaryGridToImage.c; path = ../GISSource/ESRIBinaryGridToImage.c; sourceTree = SOURCE_ROOT; };
+		BAE0E7690DE761DC00000A97 /* ESRIBinaryGridToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESRIBinaryGridToImage.h; path = ../GISSource/ESRIBinaryGridToImage.h; sourceTree = SOURCE_ROOT; };
+		BAE0E76A0DE761DC00000A97 /* File.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = File.c; path = ../GISSource/File.c; sourceTree = SOURCE_ROOT; };
+		BAE0E76B0DE761DC00000A97 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = File.h; path = ../GISSource/File.h; sourceTree = SOURCE_ROOT; };
+		BAE0E76C0DE761DC00000A97 /* PGMToImage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PGMToImage.c; path = ../GISSource/PGMToImage.c; sourceTree = SOURCE_ROOT; };
+		BAE0E76D0DE761DC00000A97 /* PGMToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PGMToImage.h; path = ../GISSource/PGMToImage.h; sourceTree = SOURCE_ROOT; };
+		BAE0E76E0DE761DC00000A97 /* ReadRaster.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ReadRaster.c; path = ../GISSource/ReadRaster.c; sourceTree = SOURCE_ROOT; };
+		BAE0E76F0DE761DC00000A97 /* ReadRaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReadRaster.h; path = ../GISSource/ReadRaster.h; sourceTree = SOURCE_ROOT; };
+		BAE0E7700DE761DC00000A97 /* SRTMToImage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SRTMToImage.c; path = ../GISSource/SRTMToImage.c; sourceTree = SOURCE_ROOT; };
+		BAE0E7710DE761DC00000A97 /* SRTMToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRTMToImage.h; path = ../GISSource/SRTMToImage.h; sourceTree = SOURCE_ROOT; };
+		BAE0E7720DE761DC00000A97 /* SurferGridToImage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SurferGridToImage.c; path = ../GISSource/SurferGridToImage.c; sourceTree = SOURCE_ROOT; };
+		BAE0E7730DE761DC00000A97 /* SurferGridToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SurferGridToImage.h; path = ../GISSource/SurferGridToImage.h; sourceTree = SOURCE_ROOT; };
+		BAE0E7740DE761DC00000A97 /* USGSDEMToImage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = USGSDEMToImage.c; path = ../GISSource/USGSDEMToImage.c; sourceTree = SOURCE_ROOT; };
+		BAE0E7750DE761DC00000A97 /* USGSDEMToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = USGSDEMToImage.h; path = ../GISSource/USGSDEMToImage.h; sourceTree = SOURCE_ROOT; };
+		BAE207620DF9251F00EF18BA /* strlwr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = strlwr.h; path = ../GISSource/strlwr.h; sourceTree = SOURCE_ROOT; };
+		BAE207950DF92F0000EF18BA /* strlwr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strlwr.c; path = ../GISSource/strlwr.c; sourceTree = SOURCE_ROOT; };
+		BAE209910DF964FD00EF18BA /* E00GridToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = E00GridToImage.h; path = ../GISSource/E00GridToImage.h; sourceTree = SOURCE_ROOT; };
+		BAE209920DF964FD00EF18BA /* E00GridToImage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = E00GridToImage.c; path = ../GISSource/E00GridToImage.c; sourceTree = SOURCE_ROOT; };
+		BAF0B8BC0E0524AF00F12599 /* ESRIShape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ESRIShape.c; path = ../GISSource/ESRIShape.c; sourceTree = SOURCE_ROOT; };
+		BAF0B8BD0E0524AF00F12599 /* ESRIShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESRIShape.h; path = ../GISSource/ESRIShape.h; sourceTree = SOURCE_ROOT; };
+		BAF0B8C00E0524BC00F12599 /* ReadVector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ReadVector.c; path = ../GISSource/ReadVector.c; sourceTree = SOURCE_ROOT; };
+		BAF0B8C10E0524BC00F12599 /* ReadVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReadVector.h; path = ../GISSource/ReadVector.h; sourceTree = SOURCE_ROOT; };
+		C86B05260671AA6E00DD9006 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		F28CFBFC0A3EC0AF000ABFF5 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		F28CFC020A3EC0C6000ABFF5 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = /System/Library/Frameworks/QuickLook.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D576313048677EA00EA77CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D576314048677EA00EA77CD /* CoreFoundation.framework in Frameworks */,
+				C86B05270671AA6E00DD9006 /* CoreServices.framework in Frameworks */,
+				F28CFBFD0A3EC0AF000ABFF5 /* ApplicationServices.framework in Frameworks */,
+				F28CFC030A3EC0C6000ABFF5 /* QuickLook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* GISLook */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = GISLook;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F28CFC020A3EC0C6000ABFF5 /* QuickLook.framework */,
+				F28CFBFC0A3EC0AF000ABFF5 /* ApplicationServices.framework */,
+				C86B05260671AA6E00DD9006 /* CoreServices.framework */,
+				0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D576317048677EA00EA77CD /* Info.plist */,
+				8D5B49A704867FD3000E48DA /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BAE0E75E0DE761D000000A97 /* GeneratePreviewForURL.c */,
+				BAE0E75F0DE761D000000A97 /* GenerateThumbnailForURL.c */,
+				BAE0E7600DE761D000000A97 /* main.c */,
+				BAE0E76E0DE761DC00000A97 /* ReadRaster.c */,
+				BAE0E76F0DE761DC00000A97 /* ReadRaster.h */,
+				BAF0B8C00E0524BC00F12599 /* ReadVector.c */,
+				BAF0B8C10E0524BC00F12599 /* ReadVector.h */,
+				BAE0E7640DE761DC00000A97 /* Color.c */,
+				BAE0E7650DE761DC00000A97 /* Color.h */,
+				BAE0E76A0DE761DC00000A97 /* File.c */,
+				BAE0E76B0DE761DC00000A97 /* File.h */,
+				BAE207620DF9251F00EF18BA /* strlwr.h */,
+				BAE207950DF92F0000EF18BA /* strlwr.c */,
+				BA6BC7BB0DF87626009993A5 /* E00.c */,
+				BA6BC7BC0DF87626009993A5 /* E00.h */,
+				BA8A16700DEBEE17006FD11E /* BILToImage.c */,
+				BA8A16710DEBEE17006FD11E /* BILToImage.h */,
+				BAE209910DF964FD00EF18BA /* E00GridToImage.h */,
+				BAE209920DF964FD00EF18BA /* E00GridToImage.c */,
+				BAE0E7660DE761DC00000A97 /* ESRIASCIIGridToImage.c */,
+				BAE0E7670DE761DC00000A97 /* ESRIASCIIGridToImage.h */,
+				BAE0E7680DE761DC00000A97 /* ESRIBinaryGridToImage.c */,
+				BAE0E7690DE761DC00000A97 /* ESRIBinaryGridToImage.h */,
+				BAF0B8BC0E0524AF00F12599 /* ESRIShape.c */,
+				BAF0B8BD0E0524AF00F12599 /* ESRIShape.h */,
+				BA8A161C0DEBE7F9006FD11E /* HdrFile.c */,
+				BA8A161D0DEBE7F9006FD11E /* HdrFile.h */,
+				BAE0E76C0DE761DC00000A97 /* PGMToImage.c */,
+				BAE0E76D0DE761DC00000A97 /* PGMToImage.h */,
+				BAE0E7700DE761DC00000A97 /* SRTMToImage.c */,
+				BAE0E7710DE761DC00000A97 /* SRTMToImage.h */,
+				BAE0E7720DE761DC00000A97 /* SurferGridToImage.c */,
+				BAE0E7730DE761DC00000A97 /* SurferGridToImage.h */,
+				BAE0E7740DE761DC00000A97 /* USGSDEMToImage.c */,
+				BAE0E7750DE761DC00000A97 /* USGSDEMToImage.h */,
+				BA2A52D20DF577B800818ACC /* avce00-2.0.0 */,
+				BA2A531E0DF5788600818ACC /* e00compr-1.0.0 */,
+				BA19866C0DED8C7600B1D5A4 /* shape */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D576316048677EA00EA77CD /* GISLook.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA19866C0DED8C7600B1D5A4 /* shape */ = {
+			isa = PBXGroup;
+			children = (
+				BA19866D0DED8C7600B1D5A4 /* dbfopen.c */,
+				BA19866E0DED8C7600B1D5A4 /* shapefil.h */,
+				BA19866F0DED8C7600B1D5A4 /* shpopen.c */,
+				BA1986700DED8C7600B1D5A4 /* shptree.c */,
+			);
+			name = shape;
+			path = ../GISSource/shape;
+			sourceTree = SOURCE_ROOT;
+		};
+		BA2A52D20DF577B800818ACC /* avce00-2.0.0 */ = {
+			isa = PBXGroup;
+			children = (
+				BA2A52D30DF577B800818ACC /* avc.h */,
+				BA2A52D40DF577B800818ACC /* avc_bin.c */,
+				BA2A52D50DF577B800818ACC /* avc_binwr.c */,
+				BA2A52D60DF577B800818ACC /* avc_e00gen.c */,
+				BA2A52D70DF577B800818ACC /* avc_e00parse.c */,
+				BA2A52D80DF577B800818ACC /* avc_e00read.c */,
+				BA2A52D90DF577B800818ACC /* avc_e00write.c */,
+				BA2A52DA0DF577B800818ACC /* avc_mbyte.c */,
+				BA2A52DB0DF577B800818ACC /* avc_mbyte.h */,
+				BA2A52DC0DF577B800818ACC /* avc_misc.c */,
+				BA2A52DD0DF577B800818ACC /* avc_rawbin.c */,
+				BA2A52E40DF577B800818ACC /* cpl_conv.c */,
+				BA2A52E50DF577B800818ACC /* cpl_conv.h */,
+				BA2A52E60DF577B800818ACC /* cpl_dir.c */,
+				BA2A52E70DF577B800818ACC /* cpl_error.c */,
+				BA2A52E80DF577B800818ACC /* cpl_error.h */,
+				BA2A52E90DF577B800818ACC /* cpl_port.h */,
+				BA2A52EA0DF577B800818ACC /* cpl_string.c */,
+				BA2A52EB0DF577B800818ACC /* cpl_string.h */,
+				BA2A52EC0DF577B800818ACC /* cpl_vsi.h */,
+				BA2A52ED0DF577B800818ACC /* cpl_vsisimple.c */,
+			);
+			name = "avce00-2.0.0";
+			path = "../GISSource/avce00-2.0.0";
+			sourceTree = SOURCE_ROOT;
+		};
+		BA2A531E0DF5788600818ACC /* e00compr-1.0.0 */ = {
+			isa = PBXGroup;
+			children = (
+				BA2A53260DF5788600818ACC /* e00compr.h */,
+				BA2A532A0DF5788600818ACC /* e00conv.c */,
+				BA2A532B0DF5788600818ACC /* e00error.c */,
+				BA2A532C0DF5788600818ACC /* e00read.c */,
+				BA2A532D0DF5788600818ACC /* e00write.c */,
+			);
+			name = "e00compr-1.0.0";
+			path = "../GISSource/e00compr-1.0.0";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D57630E048677EA00EA77CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE0E7770DE761DC00000A97 /* Color.h in Headers */,
+				BAE0E7790DE761DC00000A97 /* ESRIASCIIGridToImage.h in Headers */,
+				BAE0E77B0DE761DC00000A97 /* ESRIBinaryGridToImage.h in Headers */,
+				BAE0E77D0DE761DC00000A97 /* File.h in Headers */,
+				BAE0E77F0DE761DC00000A97 /* PGMToImage.h in Headers */,
+				BAE0E7810DE761DC00000A97 /* ReadRaster.h in Headers */,
+				BAE0E7830DE761DC00000A97 /* SRTMToImage.h in Headers */,
+				BAE0E7850DE761DC00000A97 /* SurferGridToImage.h in Headers */,
+				BAE0E7870DE761DC00000A97 /* USGSDEMToImage.h in Headers */,
+				BA8A161F0DEBE7F9006FD11E /* HdrFile.h in Headers */,
+				BA8A16730DEBEE17006FD11E /* BILToImage.h in Headers */,
+				BA1986720DED8C7600B1D5A4 /* shapefil.h in Headers */,
+				BA2A52F70DF577B800818ACC /* avc.h in Headers */,
+				BA2A52FF0DF577B800818ACC /* avc_mbyte.h in Headers */,
+				BA2A53090DF577B800818ACC /* cpl_conv.h in Headers */,
+				BA2A530C0DF577B800818ACC /* cpl_error.h in Headers */,
+				BA2A530D0DF577B800818ACC /* cpl_port.h in Headers */,
+				BA2A530F0DF577B800818ACC /* cpl_string.h in Headers */,
+				BA2A53100DF577B800818ACC /* cpl_vsi.h in Headers */,
+				BA2A533C0DF5788600818ACC /* e00compr.h in Headers */,
+				BA6BC7BE0DF87626009993A5 /* E00.h in Headers */,
+				BAE207630DF9251F00EF18BA /* strlwr.h in Headers */,
+				BAE209930DF964FD00EF18BA /* E00GridToImage.h in Headers */,
+				BAF0B8BF0E0524AF00F12599 /* ESRIShape.h in Headers */,
+				BAF0B8C30E0524BC00F12599 /* ReadVector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D57630D048677EA00EA77CD /* GISLook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA3261E0896AD4900168862 /* Build configuration list for PBXNativeTarget "GISLook" */;
+			buildPhases = (
+				8D57630E048677EA00EA77CD /* Headers */,
+				8D57630F048677EA00EA77CD /* Resources */,
+				8D576311048677EA00EA77CD /* Sources */,
+				8D576313048677EA00EA77CD /* Frameworks */,
+				8D576315048677EA00EA77CD /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GISLook;
+			productInstallPath = /Library/QuickLook;
+			productName = GISLook;
+			productReference = 8D576316048677EA00EA77CD /* GISLook.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2CA326220896AD4900168862 /* Build configuration list for PBXProject "GISLook" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* GISLook */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D57630D048677EA00EA77CD /* GISLook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D57630F048677EA00EA77CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D576315048677EA00EA77CD /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D576311048677EA00EA77CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE0E7610DE761D000000A97 /* GeneratePreviewForURL.c in Sources */,
+				BAE0E7620DE761D000000A97 /* GenerateThumbnailForURL.c in Sources */,
+				BAE0E7630DE761D000000A97 /* main.c in Sources */,
+				BAE0E7760DE761DC00000A97 /* Color.c in Sources */,
+				BAE0E7780DE761DC00000A97 /* ESRIASCIIGridToImage.c in Sources */,
+				BAE0E77A0DE761DC00000A97 /* ESRIBinaryGridToImage.c in Sources */,
+				BAE0E77C0DE761DC00000A97 /* File.c in Sources */,
+				BAE0E77E0DE761DC00000A97 /* PGMToImage.c in Sources */,
+				BAE0E7800DE761DC00000A97 /* ReadRaster.c in Sources */,
+				BAE0E7820DE761DC00000A97 /* SRTMToImage.c in Sources */,
+				BAE0E7840DE761DC00000A97 /* SurferGridToImage.c in Sources */,
+				BAE0E7860DE761DC00000A97 /* USGSDEMToImage.c in Sources */,
+				BA8A161E0DEBE7F9006FD11E /* HdrFile.c in Sources */,
+				BA8A16720DEBEE17006FD11E /* BILToImage.c in Sources */,
+				BA1986710DED8C7600B1D5A4 /* dbfopen.c in Sources */,
+				BA1986730DED8C7600B1D5A4 /* shpopen.c in Sources */,
+				BA1986740DED8C7600B1D5A4 /* shptree.c in Sources */,
+				BA2A52F80DF577B800818ACC /* avc_bin.c in Sources */,
+				BA2A52F90DF577B800818ACC /* avc_binwr.c in Sources */,
+				BA2A52FA0DF577B800818ACC /* avc_e00gen.c in Sources */,
+				BA2A52FB0DF577B800818ACC /* avc_e00parse.c in Sources */,
+				BA2A52FC0DF577B800818ACC /* avc_e00read.c in Sources */,
+				BA2A52FD0DF577B800818ACC /* avc_e00write.c in Sources */,
+				BA2A52FE0DF577B800818ACC /* avc_mbyte.c in Sources */,
+				BA2A53000DF577B800818ACC /* avc_misc.c in Sources */,
+				BA2A53010DF577B800818ACC /* avc_rawbin.c in Sources */,
+				BA2A53080DF577B800818ACC /* cpl_conv.c in Sources */,
+				BA2A530A0DF577B800818ACC /* cpl_dir.c in Sources */,
+				BA2A530B0DF577B800818ACC /* cpl_error.c in Sources */,
+				BA2A530E0DF577B800818ACC /* cpl_string.c in Sources */,
+				BA2A53110DF577B800818ACC /* cpl_vsisimple.c in Sources */,
+				BA2A53400DF5788600818ACC /* e00conv.c in Sources */,
+				BA2A53410DF5788600818ACC /* e00error.c in Sources */,
+				BA2A53420DF5788600818ACC /* e00read.c in Sources */,
+				BA2A53430DF5788600818ACC /* e00write.c in Sources */,
+				BA6BC7BD0DF87626009993A5 /* E00.c in Sources */,
+				BAE207960DF92F0000EF18BA /* strlwr.c in Sources */,
+				BAE209940DF964FD00EF18BA /* E00GridToImage.c in Sources */,
+				BAF0B8BE0E0524AF00F12599 /* ESRIShape.c in Sources */,
+				BAF0B8C20E0524BC00F12599 /* ReadVector.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D5B49A704867FD3000E48DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CA3261F0896AD4900168862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = GISLook;
+				VALID_ARCHS = "i386 ppc";
+				WRAPPER_EXTENSION = qlgenerator;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		2CA326200896AD4900168862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = GISLook;
+				VALID_ARCHS = "i386 ppc";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+		2CA326230896AD4900168862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		2CA326240896AD4900168862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CA3261E0896AD4900168862 /* Build configuration list for PBXNativeTarget "GISLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA3261F0896AD4900168862 /* Debug */,
+				2CA326200896AD4900168862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA326220896AD4900168862 /* Build configuration list for PBXProject "GISLook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA326230896AD4900168862 /* Debug */,
+				2CA326240896AD4900168862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

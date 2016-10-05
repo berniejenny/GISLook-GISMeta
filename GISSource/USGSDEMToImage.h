@@ -1,0 +1,23 @@
+/*
+ *  USGSDEMToImage.h
+ *  GISLook
+ *
+ *  Created by Bernhard Jenny on 18.05.08.
+ *  Copyright 2008. All rights reserved.
+ *
+ */
+
+#include <CoreFoundation/CoreFoundation.h>
+#include <CoreFoundation/CFPlugInCOM.h>
+#include <CoreServices/CoreServices.h>
+#include <QuickLook/QuickLook.h>
+
+#ifndef __USGSDEM2IMAGE__
+#define __USGSDEM2IMAGE__
+
+bool readUSGSDEMSize(FILE *fp, long *width, long *height);
+CGImageRef readUSGSDEMImage(FILE * fp,
+								  QLPreviewRequestRef preview,
+								  QLThumbnailRequestRef thumbnail);
+
+#endif

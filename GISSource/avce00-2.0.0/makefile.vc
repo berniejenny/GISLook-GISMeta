@@ -1,0 +1,107 @@
+#
+# makefile.vc - AVCE00 library makefile
+#
+# This VC++ makefile will build AVCE00.LIB and CPL.LIB, and also build the
+# "AVCIMPORT", "AVCEXPORT", and "AVCDELETE" programs.
+#
+# To use the makefile:
+#  - Open a DOS prompt window
+#  - Run the VCVARS32.BAT script to initialize the VC++ environment variables
+#  - Start the build with:  nmake /f makefile.vc
+#
+# $Id: makefile.vc,v 1.7 2001/11/25 22:05:19 daniel Exp $
+#
+
+
+INC	=	
+OPTFLAGS=	/Zi /nologo /W3
+
+#
+# In some cases, AVCE00DeleteCoverage() fails because the coverage directory
+# could be locked by another application on the same system or somewhere on
+# the network.  
+# Uncomment the following line to define AVC_IGNORE_RMDIR_ERROR at compile 
+# time if you want this error to be ignored.
+#
+# OPTFLAGS = $(OPTFLAGS) -DAVC_IGNORE_RMDIR_ERROR
+
+#
+# Due to the odd way that fields of type 40 are handled in E00, you will
+# start to lose some digits of precision with fields bugger than 8 digits when 
+# exporting to E00.  Define AVC_MAP_TYPE40_TO_DOUBLE to ask the AVC lib to
+# automatically remap fields of type 40 bigger than 8 digits to double 
+# precision floats while writing E00.   Double precision floats can carry up 
+# to 18 digits of precision.
+#
+#OPTFLAGS = $(OPTFLAGS) -DAVC_MAP_TYPE40_TO_DOUBLE
+
+CFLAGS	=	-DWIN32 $(OPTFLAGS) $(INC) $(EXTRAFLAGS)
+MAKE	=	nmake /nologo
+
+CC	=	cl
+
+#
+# Define 2 libraries: 
+#  $(AVCLIB) contains all the stuff specific to reading/writing coverages
+#  $(CPLLIB) contains utility functions shared by several libraries
+#
+AVCLIB	=	avce00.lib
+AVC_OBJS= 	avc_e00read.obj avc_e00write.obj avc_rawbin.obj avc_bin.obj \
+	  	avc_binwr.obj avc_e00gen.obj avc_e00parse.obj avc_misc.obj \
+                avc_mbyte.obj dbfopen.obj
+AVC_HDRS= 	avc.h avc_mbyte.h dbfopen.h
+
+CPLLIB	= 	cpl.lib
+CPL_OBJS= 	cpl_error.obj cpl_conv.obj cpl_vsisimple.obj cpl_string.obj \
+	  	cpl_dir.obj
+CPL_HDRS=	cpl_conv.h cpl_port.h cpl_error.h cpl_string.h cpl_vsi.h
+
+LIBS	=	$(AVCLIB) $(CPLLIB)
+
+default: $(LIBS) avcimport.exe avcexport.exe avctest.exe avcdelete.exe \
+		 ex_avcwrite.exe
+
+$(AVC_OBJS): $(AVC_HDRS) $(CPL_HDRS)
+
+$(AVCLIB):	$(AVC_OBJS)
+	lib /out:$(AVCLIB) $(AVC_OBJS)
+
+$(CPL_OBJS): $(CPL_HDRS)
+
+$(CPLLIB):	$(CPL_OBJS)
+	lib /out:$(CPLLIB) $(CPL_OBJS)
+
+avcimport.exe:	avcimport.c $(LIBS)
+	$(CC) $(CFLAGS) avcimport.c $(LIBS)
+
+avcexport.exe:	avcexport.c $(LIBS)
+	$(CC) $(CFLAGS) avcexport.c $(LIBS)
+
+avcdelete.exe:	avcdelete.c $(LIBS)
+	$(CC) $(CFLAGS) avcdelete.c $(LIBS)
+
+avctest.exe:	avctest.c $(LIBS)
+	$(CC) $(CFLAGS) avctest.c $(LIBS)
+
+ex_avcwrite.exe: ex_avcwrite.c $(LIBS)
+	$(CC) $(CFLAGS) ex_avcwrite.c $(LIBS)
+
+testmulti.exe:	testmulti.c $(LIBS)
+	$(CC) $(CFLAGS) testmulti.c commode.obj $(LIBS)
+
+clean:
+	del *.obj
+	del $(AVCLIB)
+	del $(CPLLIB)
+	del *.exe
+	del *.pdb
+	del *.exp
+	del *.ilk
+
+.c.obj:	
+	$(CC) $(CFLAGS) /c $*.c
+
+.cpp.obj:	
+	$(CC) $(CFLAGS) /c $*.cpp
+
+

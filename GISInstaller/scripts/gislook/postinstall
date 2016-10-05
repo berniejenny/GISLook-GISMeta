@@ -1,0 +1,5 @@
+#!/bin/sh
+echo $SCRIPT_NAME: registering GISLook.qlgenerator
+qlmanage -r
+exit 0
+

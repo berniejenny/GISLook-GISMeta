@@ -1,0 +1,1126 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = BA9E290C0DE6EBAA00BDB69F /* qlmanage */;
+		activeTarget = 8D57630D048677EA00EA77CD /* GISLook */;
+		addToTargets = (
+			8D57630D048677EA00EA77CD /* GISLook */,
+		);
+		breakpoints = (
+			BAF0B94B0E05281F00F12599 /* E00.c:494 */,
+			BAF0B9C10E05377D00F12599 /* E00.c:476 */,
+			BA1587600E0BD4C800965E00 /* USGSDEMToImage.c:108 */,
+			BA1587AD0E0BDFFB00965E00 /* gdal usgsdemdataset.c:174 */,
+			BA1587D60E0BE8F400965E00 /* USGSDEMToImage.c:298 */,
+			BAB31D300E0C371E0003C7E9 /* E00.c:440 */,
+			BAB31D640E0C53A00003C7E9 /* E00.c:350 */,
+			BA81F5B50E10E21A00E61C71 /* ESRIShape.c:151 */,
+			BA98331C0ECCDD11001316F0 /* ESRIASCIIGridToImage.c:139 */,
+			BA98331E0ECCDD16001316F0 /* ESRIASCIIGridToImage.c:148 */,
+			BA9833200ECCDD19001316F0 /* ESRIASCIIGridToImage.c:163 */,
+			BA9833290ECCDFB8001316F0 /* ESRIASCIIGridToImage.c:175 */,
+			BA9D561F0ECD6E5600827366 /* ESRIASCIIGridToImage.c:132 */,
+			BA9D56790ECD855600827366 /* ESRIASCIIGridToImage.c:113 */,
+			BA9D567E0ECD85DE00827366 /* ESRIASCIIGridToImage.c:113 */,
+		);
+		codeSenseManager = BA9E28C70DE6EB0300BDB69F /* Code sense */;
+		executables = (
+			BA9E290C0DE6EBAA00BDB69F /* qlmanage */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					212,
+					20,
+					112,
+					112,
+					42,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					537,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					48,
+					43,
+					43,
+					560,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					520,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 323860776;
+			PBXWorkspaceStateSaveDate = 323860776;
+		};
+		perUserProjectItems = {
+			BA54F6CE0EEB2A1E00E13406 /* PBXTextBookmark */ = BA54F6CE0EEB2A1E00E13406 /* PBXTextBookmark */;
+			BA54F6E80EEB2BEF00E13406 /* PBXTextBookmark */ = BA54F6E80EEB2BEF00E13406 /* PBXTextBookmark */;
+			BA54F6E90EEB2BEF00E13406 /* PBXTextBookmark */ = BA54F6E90EEB2BEF00E13406 /* PBXTextBookmark */;
+			BA9DA6DD134DBB2A00F5A7FB /* PBXTextBookmark */ = BA9DA6DD134DBB2A00F5A7FB /* PBXTextBookmark */;
+			BA9DA6DE134DBB2A00F5A7FB /* PBXTextBookmark */ = BA9DA6DE134DBB2A00F5A7FB /* PBXTextBookmark */;
+			BA9DA6E5134DBB2A00F5A7FB /* PBXTextBookmark */ = BA9DA6E5134DBB2A00F5A7FB /* PBXTextBookmark */;
+			BA9DA704134E3E3500F5A7FB /* PBXTextBookmark */ = BA9DA704134E3E3500F5A7FB /* PBXTextBookmark */;
+			BA9DA705134E3E3500F5A7FB /* PBXTextBookmark */ = BA9DA705134E3E3500F5A7FB /* PBXTextBookmark */;
+			BA9DA706134E3E3500F5A7FB /* PBXTextBookmark */ = BA9DA706134E3E3500F5A7FB /* PBXTextBookmark */;
+			BA9DA71F134E3FB800F5A7FB /* PBXTextBookmark */ = BA9DA71F134E3FB800F5A7FB /* PBXTextBookmark */;
+			BA9DA720134E3FB800F5A7FB /* PBXTextBookmark */ = BA9DA720134E3FB800F5A7FB /* PBXTextBookmark */;
+			BA9DA729134E438300F5A7FB /* PBXTextBookmark */ = BA9DA729134E438300F5A7FB /* PBXTextBookmark */;
+			BA9DA737134E483800F5A7FB /* PBXTextBookmark */ = BA9DA737134E483800F5A7FB /* PBXTextBookmark */;
+			BA9DA738134E483800F5A7FB /* PBXTextBookmark */ = BA9DA738134E483800F5A7FB /* PBXTextBookmark */;
+			BA9DA739134E483800F5A7FB /* PBXTextBookmark */ = BA9DA739134E483800F5A7FB /* PBXTextBookmark */;
+			BADE3D320F10166B00172462 /* PBXTextBookmark */ = BADE3D320F10166B00172462 /* PBXTextBookmark */;
+			BADE3D330F10166B00172462 /* PBXTextBookmark */ = BADE3D330F10166B00172462 /* PBXTextBookmark */;
+		};
+		sourceControlManager = BA9E28C60DE6EB0300BDB69F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {797, 713}}";
+			sepNavSelRange = "{186, 0}";
+			sepNavVisRange = "{0, 205}";
+			sepNavWindowFrame = "{{61, 37}, {856, 841}}";
+		};
+	};
+	8D57630D048677EA00EA77CD /* GISLook */ = {
+		activeExec = 0;
+	};
+	8D576317048677EA00EA77CD /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {722, 4575}}";
+			sepNavSelRange = "{4812, 0}";
+			sepNavVisRange = "{3484, 1490}";
+			sepNavWindowFrame = "{{31, 4}, {870, 874}}";
+		};
+	};
+	BA1587600E0BD4C800965E00 /* USGSDEMToImage.c:108 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BAE0E7740DE761DC00000A97 /* USGSDEMToImage.c */;
+		functionName = "readUSGSDEMSize()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 108;
+		location = GISLook;
+		modificationTime = 250292406.774722;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	BA1587AB0E0BDFFB00965E00 /* gdal usgsdemdataset.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = "gdal usgsdemdataset.c";
+		path = "/Users/jenny/Desktop/gdal usgsdemdataset.c";
+		sourceTree = "<group>";
+	};
+	BA1587AD0E0BDFFB00965E00 /* gdal usgsdemdataset.c:174 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BA1587AB0E0BDFFB00965E00 /* gdal usgsdemdataset.c */;
+		functionName = "IReadBlock()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 174;
+		modificationTime = 250292405.332683;
+		originalNumberOfMultipleMatches = 0;
+		state = 0;
+	};
+	BA1587D60E0BE8F400965E00 /* USGSDEMToImage.c:298 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BAE0E7740DE761DC00000A97 /* USGSDEMToImage.c */;
+		functionName = "readUSGSDEMImage()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 298;
+		location = GISLook;
+		modificationTime = 250292406.805929;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	BA19866D0DED8C7600B1D5A4 /* dbfopen.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {757, 22260}}";
+			sepNavSelRange = "{6644, 23}";
+			sepNavVisRange = "{5988, 1274}";
+		};
+	};
+	BA19866E0DED8C7600B1D5A4 /* shapefil.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {811, 6975}}";
+			sepNavSelRange = "{8383, 20}";
+			sepNavVisRange = "{8042, 1785}";
+			sepNavWindowFrame = "{{38, 21}, {870, 1131}}";
+		};
+	};
+	BA19866F0DED8C7600B1D5A4 /* shpopen.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {835, 27990}}";
+			sepNavSelRange = "{12529, 0}";
+			sepNavVisRange = "{13685, 1813}";
+			sepNavWindowFrame = "{{38, 4}, {870, 874}}";
+		};
+	};
+	BA1986700DED8C7600B1D5A4 /* shptree.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {640, 10395}}";
+			sepNavSelRange = "{2608, 0}";
+			sepNavVisRange = "{2205, 562}";
+		};
+	};
+	BA2A52D30DF577B800818ACC /* avc.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1247, 13080}}";
+			sepNavSelRange = "{14165, 13}";
+			sepNavVisRange = "{12961, 1806}";
+			sepNavWindowFrame = "{{1378, 0}, {1306, 900}}";
+		};
+	};
+	BA2A52D40DF577B800818ACC /* avc_bin.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {824, 38910}}";
+			sepNavSelRange = "{47423, 0}";
+			sepNavVisRange = "{46951, 1076}";
+		};
+	};
+	BA2A52D50DF577B800818ACC /* avc_binwr.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 34770}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2837}";
+		};
+	};
+	BA2A52D60DF577B800818ACC /* avc_e00gen.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 21720}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2891}";
+		};
+	};
+	BA2A52D70DF577B800818ACC /* avc_e00parse.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 33420}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 3083}";
+		};
+	};
+	BA2A52D80DF577B800818ACC /* avc_e00read.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1247, 31560}}";
+			sepNavSelRange = "{62563, 53}";
+			sepNavVisRange = "{61416, 1998}";
+			sepNavWindowFrame = "{{15, 4}, {1306, 998}}";
+		};
+	};
+	BA2A52D90DF577B800818ACC /* avc_e00write.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 15150}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2791}";
+		};
+	};
+	BA2A52DA0DF577B800818ACC /* avc_mbyte.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {824, 7875}}";
+			sepNavSelRange = "{15929, 0}";
+			sepNavVisRange = "{15589, 914}";
+		};
+	};
+	BA2A52DB0DF577B800818ACC /* avc_mbyte.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 1380}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{877, 2566}";
+		};
+	};
+	BA2A52DD0DF577B800818ACC /* avc_rawbin.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {769, 9430}}";
+			sepNavSelRange = "{15063, 43}";
+			sepNavVisRange = "{14678, 848}";
+		};
+	};
+	BA2A52E40DF577B800818ACC /* cpl_conv.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 4440}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2665}";
+		};
+	};
+	BA2A52EA0DF577B800818ACC /* cpl_string.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {677, 11985}}";
+			sepNavSelRange = "{24697, 9}";
+			sepNavVisRange = "{14900, 2129}";
+		};
+	};
+	BA2A52EC0DF577B800818ACC /* cpl_vsi.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {696, 2340}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2435}";
+		};
+	};
+	BA2A52ED0DF577B800818ACC /* cpl_vsisimple.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {696, 4785}}";
+			sepNavSelRange = "{4771, 62}";
+			sepNavVisRange = "{4055, 1567}";
+			sepNavWindowFrame = "{{15, -1}, {870, 1174}}";
+		};
+	};
+	BA2A53260DF5788600818ACC /* e00compr.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1247, 2655}}";
+			sepNavSelRange = "{4362, 2}";
+			sepNavVisRange = "{4036, 1910}";
+			sepNavWindowFrame = "{{1780, 0}, {1306, 900}}";
+		};
+	};
+	BA2A532A0DF5788600818ACC /* e00conv.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {757, 2115}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1923}";
+		};
+	};
+	BA2A532B0DF5788600818ACC /* e00error.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 1920}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2645}";
+		};
+	};
+	BA2A532C0DF5788600818ACC /* e00read.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1087, 9645}}";
+			sepNavSelRange = "{9200, 47}";
+			sepNavVisRange = "{8877, 1632}";
+			sepNavWindowFrame = "{{15, 4}, {1146, 874}}";
+		};
+	};
+	BA2A532D0DF5788600818ACC /* e00write.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 9270}}";
+			sepNavSelRange = "{669, 0}";
+			sepNavVisRange = "{0, 2739}";
+		};
+	};
+	BA54F6CE0EEB2A1E00E13406 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BAE209920DF964FD00EF18BA /* E00GridToImage.c */;
+		name = "E00GridToImage.c: 152";
+		rLen = 0;
+		rLoc = 3714;
+		rType = 0;
+		vrLen = 1481;
+		vrLoc = 1183;
+	};
+	BA54F6E80EEB2BEF00E13406 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BAF0B8BD0E0524AF00F12599 /* ESRIShape.h */;
+		name = "ESRIShape.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 701;
+		vrLoc = 0;
+	};
+	BA54F6E90EEB2BEF00E13406 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BAF0B8BC0E0524AF00F12599 /* ESRIShape.c */;
+		name = "ESRIShape.c: 143";
+		rLen = 0;
+		rLoc = 3913;
+		rType = 0;
+		vrLen = 1471;
+		vrLoc = 2755;
+	};
+	BA6BC7BB0DF87626009993A5 /* E00.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {649, 7395}}";
+			sepNavSelRange = "{6814, 16}";
+			sepNavVisRange = "{6620, 820}";
+			sepNavWindowFrame = "{{15, 4}, {1146, 874}}";
+		};
+	};
+	BA6BC7BC0DF87626009993A5 /* E00.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 977}}";
+			sepNavSelRange = "{464, 0}";
+			sepNavVisRange = "{0, 672}";
+		};
+	};
+	BA81F5B50E10E21A00E61C71 /* ESRIShape.c:151 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BAF0B8BC0E0524AF00F12599 /* ESRIShape.c */;
+		functionName = "readESRIShape()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 151;
+		location = GISLook;
+		modificationTime = 250292406.889387;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	BA8A161C0DEBE7F9006FD11E /* HdrFile.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {773, 3135}}";
+			sepNavSelRange = "{1815, 6}";
+			sepNavVisRange = "{1232, 1195}";
+			sepNavWindowFrame = "{{1009, 42}, {870, 1131}}";
+		};
+	};
+	BA8A161D0DEBE7F9006FD11E /* HdrFile.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {811, 1003}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 471}";
+			sepNavWindowFrame = "{{676, 47}, {870, 1131}}";
+		};
+	};
+	BA8A16700DEBEE17006FD11E /* BILToImage.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {696, 5505}}";
+			sepNavSelRange = "{3000, 46}";
+			sepNavVisRange = "{6529, 1291}";
+			sepNavWindowFrame = "{{948, 19}, {870, 1131}}";
+		};
+	};
+	BA8A16710DEBEE17006FD11E /* BILToImage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 977}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 537}";
+			sepNavWindowFrame = "{{38, 21}, {870, 1131}}";
+		};
+	};
+	BA98331C0ECCDD11001316F0 /* ESRIASCIIGridToImage.c:139 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BAE0E7660DE761DC00000A97 /* ESRIASCIIGridToImage.c */;
+		functionName = "readESRIASCIIGrid()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 139;
+		location = GISLook;
+		modificationTime = 250292406.923077;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	BA98331E0ECCDD16001316F0 /* ESRIASCIIGridToImage.c:148 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BAE0E7660DE761DC00000A97 /* ESRIASCIIGridToImage.c */;
+		functionName = "readESRIASCIIGrid()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 148;
+		location = GISLook;
+		modificationTime = 250292406.947188;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	BA9833200ECCDD19001316F0 /* ESRIASCIIGridToImage.c:163 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BAE0E7660DE761DC00000A97 /* ESRIASCIIGridToImage.c */;
+		functionName = "readESRIASCIIGrid()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 163;
+		location = GISLook;
+		modificationTime = 250292406.99447;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	BA9833290ECCDFB8001316F0 /* ESRIASCIIGridToImage.c:175 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BAE0E7660DE761DC00000A97 /* ESRIASCIIGridToImage.c */;
+		functionName = "readESRIASCIIGrid()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 175;
+		location = GISLook;
+		modificationTime = 250292407.01122;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	BA9D561F0ECD6E5600827366 /* ESRIASCIIGridToImage.c:132 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BAE0E7660DE761DC00000A97 /* ESRIASCIIGridToImage.c */;
+		functionName = "readESRIASCIIGrid()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 132;
+		location = GISLook;
+		modificationTime = 250292407.043221;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	BA9D56790ECD855600827366 /* ESRIASCIIGridToImage.c:113 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BAE0E7660DE761DC00000A97 /* ESRIASCIIGridToImage.c */;
+		functionName = "readESRIASCIIGrid()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 113;
+		location = GISLook;
+		modificationTime = 250292407.064626;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	BA9D567E0ECD85DE00827366 /* ESRIASCIIGridToImage.c:113 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BAE0E7660DE761DC00000A97 /* ESRIASCIIGridToImage.c */;
+		functionName = "readESRIASCIIGrid()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 113;
+		location = GISLook;
+		modificationTime = 250292407.107435;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	BA9DA6DD134DBB2A00F5A7FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA2A52ED0DF577B800818ACC /* cpl_vsisimple.c */;
+		name = "cpl_vsisimple.c: 140";
+		rLen = 62;
+		rLoc = 4771;
+		rType = 0;
+		vrLen = 1567;
+		vrLoc = 4055;
+	};
+	BA9DA6DE134DBB2A00F5A7FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BAE0E7660DE761DC00000A97 /* ESRIASCIIGridToImage.c */;
+		name = "ESRIASCIIGridToImage.c: 194";
+		rLen = 0;
+		rLoc = 4443;
+		rType = 0;
+		vrLen = 1097;
+		vrLoc = 3916;
+	};
+	BA9DA6E5134DBB2A00F5A7FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BAE0E76A0DE761DC00000A97 /* File.c */;
+		rLen = 1;
+		rLoc = 65;
+		rType = 1;
+	};
+	BA9DA704134E3E3500F5A7FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BAE0E7680DE761DC00000A97 /* ESRIBinaryGridToImage.c */;
+		name = "ESRIBinaryGridToImage.c: 119";
+		rLen = 3;
+		rLoc = 2464;
+		rType = 0;
+		vrLen = 1038;
+		vrLoc = 1908;
+	};
+	BA9DA705134E3E3500F5A7FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BAE0E75E0DE761D000000A97 /* GeneratePreviewForURL.c */;
+		name = "GeneratePreviewForURL.c: 20";
+		rLen = 10;
+		rLoc = 652;
+		rType = 0;
+		vrLen = 1487;
+		vrLoc = 0;
+	};
+	BA9DA706134E3E3500F5A7FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BAE0E75F0DE761D000000A97 /* GenerateThumbnailForURL.c */;
+		name = "GenerateThumbnailForURL.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1037;
+		vrLoc = 0;
+	};
+	BA9DA71F134E3FB800F5A7FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA2A52D40DF577B800818ACC /* avc_bin.c */;
+		name = "avc_bin.c: 1315";
+		rLen = 0;
+		rLoc = 47423;
+		rType = 0;
+		vrLen = 1538;
+		vrLoc = 46565;
+	};
+	BA9DA720134E3FB800F5A7FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BAF0B8C00E0524BC00F12599 /* ReadVector.c */;
+		name = "ReadVector.c: 36";
+		rLen = 0;
+		rLoc = 860;
+		rType = 0;
+		vrLen = 1678;
+		vrLoc = 375;
+	};
+	BA9DA729134E438300F5A7FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BAF0B8C00E0524BC00F12599 /* ReadVector.c */;
+		rLen = 13;
+		rLoc = 1917;
+		rType = 0;
+	};
+	BA9DA737134E483800F5A7FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BAF0B8C00E0524BC00F12599 /* ReadVector.c */;
+		name = "ReadVector.c: 35";
+		rLen = 19;
+		rLoc = 801;
+		rType = 0;
+		vrLen = 1751;
+		vrLoc = 375;
+	};
+	BA9DA738134E483800F5A7FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BAF0B8C00E0524BC00F12599 /* ReadVector.c */;
+		name = "ReadVector.c: 104";
+		rLen = 0;
+		rLoc = 3257;
+		rType = 0;
+		vrLen = 1672;
+		vrLoc = 2256;
+	};
+	BA9DA739134E483800F5A7FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BAE0E76A0DE761DC00000A97 /* File.c */;
+		name = "File.c: 66";
+		rLen = 34;
+		rLoc = 1487;
+		rType = 0;
+		vrLen = 1154;
+		vrLoc = 1035;
+	};
+	BA9E28C60DE6EB0300BDB69F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	BA9E28C70DE6EB0300BDB69F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BA9E290C0DE6EBAA00BDB69F /* qlmanage */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+			NO,
+			YES,
+			NO,
+			YES,
+			NO,
+			YES,
+			NO,
+		);
+		argumentStrings = (
+			"-p",
+			"-c com.esri.asciigrid",
+			"-c com.esri.shape",
+			"-c com.esri.coverage",
+			"-g /Users/jenny/Documents/QuickLook/GISPlugins/GISLook/build/Debug/GISLook.qlgenerator",
+			/Users/jenny/Desktop/large.asc,
+			/Users/jenny/Documents/QuickLook/GISPlugins/data/shape/problems/geolKos.shp,
+			/Users/jenny/Documents/QuickLook/GISPlugins/data/DCW_Switzerland/pnet/arc.adf,
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = BA9E290D0DE6EBAA00BDB69F /* qlmanage */;
+		libgmallocEnabled = 0;
+		name = qlmanage;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$gs = 1;
+			$mm0 = 1;
+			$mm1 = 1;
+			$mm2 = 1;
+			$mm3 = 1;
+			$mm4 = 1;
+			$mm5 = 1;
+			$mm6 = 1;
+			$mm7 = 1;
+			$mxcsr = 1;
+			$ss = 1;
+			$xmm0 = 1;
+			$xmm1 = 1;
+			$xmm2 = 1;
+			$xmm3 = 1;
+			$xmm4 = 1;
+			$xmm5 = 1;
+			$xmm6 = 1;
+			$xmm7 = 1;
+		};
+	};
+	BA9E290D0DE6EBAA00BDB69F /* qlmanage */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = "compiled.mach-o.executable";
+		name = qlmanage;
+		path = /usr/bin/qlmanage;
+		sourceTree = "<absolute>";
+	};
+	BAB31D300E0C371E0003C7E9 /* E00.c:440 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BA6BC7BB0DF87626009993A5 /* E00.c */;
+		functionName = "readE00Size()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 440;
+		location = GISLook;
+		modificationTime = 250292406.826406;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	BAB31D640E0C53A00003C7E9 /* E00.c:350 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BA6BC7BB0DF87626009993A5 /* E00.c */;
+		functionName = "readBND()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 350;
+		location = GISLook;
+		modificationTime = 250292406.872931;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	BADE3D320F10166B00172462 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA6BC7BB0DF87626009993A5 /* E00.c */;
+		name = "E00.c: 296";
+		rLen = 0;
+		rLoc = 6830;
+		rType = 0;
+		vrLen = 1355;
+		vrLoc = 6161;
+	};
+	BADE3D330F10166B00172462 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BA2A52EC0DF577B800818ACC /* cpl_vsi.h */;
+		name = "cpl_vsi.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2435;
+		vrLoc = 0;
+	};
+	BAE0E75E0DE761D000000A97 /* GeneratePreviewForURL.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 705}}";
+			sepNavSelRange = "{652, 10}";
+			sepNavVisRange = "{0, 1487}";
+			sepNavWindowFrame = "{{301, 4}, {870, 998}}";
+		};
+	};
+	BAE0E75F0DE761D000000A97 /* GenerateThumbnailForURL.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 676}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1037}";
+		};
+	};
+	BAE0E7600DE761D000000A97 /* main.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1198, 3285}}";
+			sepNavSelRange = "{815, 0}";
+			sepNavVisRange = "{0, 2876}";
+			sepNavWindowFrame = "{{15, 4}, {870, 998}}";
+		};
+	};
+	BAE0E7640DE761DC00000A97 /* Color.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {448, 605}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 506}";
+		};
+	};
+	BAE0E7650DE761DC00000A97 /* Color.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {448, 317}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 234}";
+		};
+	};
+	BAE0E7660DE761DC00000A97 /* ESRIASCIIGridToImage.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1147, 3195}}";
+			sepNavSelRange = "{4735, 0}";
+			sepNavVisRange = "{3863, 1155}";
+			sepNavWindowFrame = "{{38, 4}, {1206, 874}}";
+		};
+	};
+	BAE0E7670DE761DC00000A97 /* ESRIASCIIGridToImage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {757, 654}}";
+			sepNavSelRange = "{137, 219}";
+			sepNavVisRange = "{0, 551}";
+		};
+	};
+	BAE0E7680DE761DC00000A97 /* ESRIBinaryGridToImage.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {581, 3375}}";
+			sepNavSelRange = "{2464, 3}";
+			sepNavVisRange = "{2297, 245}";
+			sepNavWindowFrame = "{{15, 42}, {870, 1131}}";
+		};
+	};
+	BAE0E7690DE761DC00000A97 /* ESRIBinaryGridToImage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 964}}";
+			sepNavSelRange = "{138, 452}";
+			sepNavVisRange = "{0, 591}";
+		};
+	};
+	BAE0E76A0DE761DC00000A97 /* File.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {811, 1455}}";
+			sepNavSelRange = "{1487, 34}";
+			sepNavVisRange = "{1035, 1154}";
+			sepNavWindowFrame = "{{410, 128}, {870, 874}}";
+		};
+	};
+	BAE0E76B0DE761DC00000A97 /* File.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 977}}";
+			sepNavSelRange = "{486, 15}";
+			sepNavVisRange = "{0, 538}";
+		};
+	};
+	BAE0E76C0DE761DC00000A97 /* PGMToImage.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {696, 4335}}";
+			sepNavSelRange = "{2927, 0}";
+			sepNavVisRange = "{2029, 1550}";
+			sepNavWindowFrame = "{{15, 4}, {870, 998}}";
+		};
+	};
+	BAE0E76D0DE761DC00000A97 /* PGMToImage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {757, 654}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 500}";
+		};
+	};
+	BAE0E76E0DE761DC00000A97 /* ReadRaster.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {811, 3630}}";
+			sepNavSelRange = "{1932, 51}";
+			sepNavVisRange = "{3491, 1529}";
+			sepNavWindowFrame = "{{185, 4}, {870, 998}}";
+		};
+	};
+	BAE0E76F0DE761DC00000A97 /* ReadRaster.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {696, 986}}";
+			sepNavSelRange = "{185, 16}";
+			sepNavVisRange = "{0, 915}";
+			sepNavWindowFrame = "{{15, 4}, {870, 874}}";
+		};
+	};
+	BAE0E7700DE761DC00000A97 /* SRTMToImage.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {696, 2955}}";
+			sepNavSelRange = "{4175, 0}";
+			sepNavVisRange = "{3592, 1715}";
+		};
+	};
+	BAE0E7720DE761DC00000A97 /* SurferGridToImage.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {696, 6405}}";
+			sepNavSelRange = "{9547, 0}";
+			sepNavVisRange = "{8084, 1581}";
+		};
+	};
+	BAE0E7730DE761DC00000A97 /* SurferGridToImage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 977}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 544}";
+		};
+	};
+	BAE0E7740DE761DC00000A97 /* USGSDEMToImage.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {696, 5385}}";
+			sepNavSelRange = "{9159, 0}";
+			sepNavVisRange = "{7644, 1746}";
+			sepNavWindowFrame = "{{1758, 0}, {870, 900}}";
+		};
+	};
+	BAE0E7750DE761DC00000A97 /* USGSDEMToImage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 977}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 528}";
+		};
+	};
+	BAE207620DF9251F00EF18BA /* strlwr.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 964}}";
+			sepNavSelRange = "{161, 0}";
+			sepNavVisRange = "{0, 214}";
+			sepNavWindowFrame = "{{15, 13}, {1146, 1160}}";
+		};
+	};
+	BAE207950DF92F0000EF18BA /* strlwr.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 964}}";
+			sepNavSelRange = "{162, 0}";
+			sepNavVisRange = "{0, 162}";
+		};
+	};
+	BAE209910DF964FD00EF18BA /* E00GridToImage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {696, 986}}";
+			sepNavSelRange = "{409, 0}";
+			sepNavVisRange = "{0, 579}";
+		};
+	};
+	BAE209920DF964FD00EF18BA /* E00GridToImage.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {696, 2460}}";
+			sepNavSelRange = "{3714, 0}";
+			sepNavVisRange = "{1183, 1481}";
+			sepNavWindowFrame = "{{15, -1}, {870, 1174}}";
+		};
+	};
+	BAF0B8BC0E0524AF00F12599 /* ESRIShape.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {826, 4410}}";
+			sepNavSelRange = "{2818, 13}";
+			sepNavVisRange = "{2676, 758}";
+			sepNavWindowFrame = "{{15, 4}, {1306, 998}}";
+		};
+	};
+	BAF0B8BD0E0524AF00F12599 /* ESRIShape.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {696, 822}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 701}";
+		};
+	};
+	BAF0B8C00E0524BC00F12599 /* ReadVector.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {738, 2205}}";
+			sepNavSelRange = "{801, 19}";
+			sepNavVisRange = "{375, 1751}";
+			sepNavWindowFrame = "{{1361, 0}, {1306, 900}}";
+		};
+	};
+	BAF0B8C10E0524BC00F12599 /* ReadVector.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {581, 525}}";
+			sepNavSelRange = "{363, 19}";
+			sepNavVisRange = "{0, 690}";
+			sepNavWindowFrame = "{{406, -26}, {1306, 874}}";
+		};
+	};
+	BAF0B94B0E05281F00F12599 /* E00.c:494 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BA6BC7BB0DF87626009993A5 /* E00.c */;
+		functionName = "readE00Size()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 494;
+		location = GISLook;
+		modificationTime = 250292406.724853;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	BAF0B9C10E05377D00F12599 /* E00.c:476 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BA6BC7BB0DF87626009993A5 /* E00.c */;
+		functionName = "readE00Size()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 476;
+		location = GISLook;
+		modificationTime = 250292406.757621;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+}

@@ -1,0 +1,4 @@
+#!/bin/sh
+echo $SCRIPT_NAME: registering GISMeta.mdimporter
+/usr/bin/mdimport -r /Library/Spotlight/GISMeta.mdimporter
+exit 0
